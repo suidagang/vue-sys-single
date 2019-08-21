@@ -59,7 +59,7 @@ export default {
     bottom: 0;
     left: 0;
   width: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
   box-sizing: border-box;
 }
 .bread-crumb {

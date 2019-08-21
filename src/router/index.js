@@ -8,17 +8,21 @@ const layOut = () => import('@/views/index.vue')
 Vue.use(Router)
 
 export default new Router({
-    routes: [{//便于调试
-        path: '*',
-        redirect: '/two' 
-    },{
-        path: '/',
-        name: 'layOut',
-        component: layOut,
-        children:[{
-            path: '/two',
-            name: 'Two',
-            component: Two
-        }]
-    }]
+    routes: [
+        // {//便于调试
+        //     path: '*',
+        //     redirect: '/' 
+        // },
+        {
+            path: '/',
+            name: 'layOut',
+            component: layOut,
+            redirect: '/two', 
+            children:[{
+                path: '/two',
+                name: 'Two',
+                component: Two
+            }]
+        }
+    ]
 })

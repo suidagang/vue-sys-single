@@ -22,7 +22,7 @@
 </script>
 <style scoped>
     .two{
-        height: 300px;
+        height: 3000px;
         width: 100%;
         background: pink;
     }
