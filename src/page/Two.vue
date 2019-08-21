@@ -1,6 +1,6 @@
 <template>
     <div class="two">
-        <div>第二页</div>
+        <div @click="go">第二页</div>
         <SubTwo />
     </div>
 </template>
@@ -16,7 +16,9 @@
         },
         mounted() {},
         methods: {
-            
+            go(){
+                this.$router.push("/one")
+            }
         },
     }
 </script>

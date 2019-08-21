@@ -9,10 +9,10 @@ Vue.use(Router)
 
 export default new Router({
     routes: [
-        // {//便于调试
-        //     path: '*',
-        //     redirect: '/' 
-        // },
+        {//便于调试
+            path: '*',
+            redirect: '/' 
+        },
         {
             path: '/',
             name: 'layOut',
@@ -22,6 +22,10 @@ export default new Router({
                 path: '/two',
                 name: 'Two',
                 component: Two
+            },{
+                path: '/one',
+                name: 'One',
+                component: One
             }]
         }
     ]
