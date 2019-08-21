@@ -10,6 +10,10 @@ import {post,fetch} from '@/request/api'
 //定义全局变量
 Vue.prototype.$post=post;
 Vue.prototype.$get=fetch;
+//全局引用elementui
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
 
 Vue.config.productionTip = false
 

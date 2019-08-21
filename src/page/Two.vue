@@ -1,7 +1,6 @@
 <template>
-    <div>
-        第二页
-        <button @click="goOne">返回第一页</button>
+    <div class="two">
+        <div>第二页</div>
         <SubTwo />
     </div>
 </template>
@@ -17,12 +16,14 @@
         },
         mounted() {},
         methods: {
-            goOne(){
-                this.$router.push("/one")
-            }
+            
         },
     }
 </script>
 <style scoped>
-
+    .two{
+        height: 300px;
+        width: 100%;
+        background: pink;
+    }
 </style>
