@@ -1,31 +1,18 @@
 <template>
-    <div class="two">
-        <div @click="go">第二页</div>
-        <SubTwo />
+    <div>
+        第二页
     </div>
 </template>
 
 <script>
-     import SubTwo from "@/components/Two/SubTwo.vue"
     export default {
-        components:{
-            SubTwo
-        },
         data() {
             return {}
         },
         mounted() {},
-        methods: {
-            go(){
-                this.$router.push("/one")
-            }
-        },
+        methods: {},
     }
 </script>
 <style scoped>
-    .two{
-        height: 3000px;
-        width: 100%;
-        background: pink;
-    }
+
 </style>

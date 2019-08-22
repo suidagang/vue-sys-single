@@ -1,7 +1,6 @@
 <template>
     <div>
-         <router-view></router-view>
-    </div>
+        第三页子页</div>
 </template>
 
 <script>

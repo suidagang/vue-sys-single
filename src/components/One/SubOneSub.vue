@@ -1,6 +1,6 @@
 <template>
     <div>
-        第二页组件
+         第一页子页子页
     </div>
 </template>
 
@@ -10,8 +10,7 @@
             return {}
         },
         mounted() {},
-        methods: {
-        },
+        methods: {},
     }
 </script>
 <style scoped>

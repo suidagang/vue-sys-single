@@ -1,0 +1,22 @@
+.app-container {
+    padding: 20px;
+    margin: 15px 18px;
+    background-color: white;
+}
+
+.main-container {
+    background-color: #eff4fd;
+}
+
+.filter-container {
+    padding: 10px 30px;
+    background-color: #e6e8ef;
+    margin: -20px -20px 20px -20px;
+}
+
+.filter-container .filter-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
